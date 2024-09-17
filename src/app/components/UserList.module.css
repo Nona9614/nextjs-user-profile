@@ -1,0 +1,80 @@
+ul.user-list {
+  --user-color: hsl(175, 100%, 25%);
+  list-style: none;
+  font-size: 1.5rem;
+
+  & li:not(:first-child) {
+    padding-top: 1rem;
+  }
+
+  & li > a {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    word-break: keep-all;
+    white-space: nowrap;
+
+    & i {
+      height: inherit;
+      width: 40px;
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  & li:hover {
+    & svg {
+      fill: var(--user-color);
+    }
+    & a {
+      color: var(--user-color);
+    }
+  }
+}
+
+.user {
+  & h2 {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 2rem;
+    color: hsl(180, 100%, 15%);
+
+    & i {
+      height: 60px;
+      width: 60px;
+    }
+  }
+
+  & h3 {
+    font-size: 1.75rem;
+    color: hsl(180, 37%, 28%);
+  }
+}
+
+.user-friends {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+
+  & ul {
+    padding-top: 0.75rem;
+    list-style: none;
+
+    & li {
+      font-style: italic;
+      color: hsl(0, 0%, 30%);
+    }
+
+    & li:not(:last-child) {
+      padding-bottom: 0.25rem;
+    }
+
+    & li::before {
+      content: "🡒";
+      width: 1.2rem;
+      padding-right: 0.3rem;
+      display: inline-block;
+    }
+  }
+}

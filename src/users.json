@@ -1,0 +1,46 @@
+[
+    {
+        "id": "nona_archangel_97",
+        "name": {
+            "first": "Nona",
+            "last": "Archangel"
+        },
+        "friends": [
+            "movieWatcher2001",
+            "LifeUpKiller99"
+        ],
+        "presentation": "Hello! I want to make new friends!",
+        "icon": "images/kana.svg"
+    },
+    {
+        "id": "movieWatcher2001",
+        "name": {
+            "first": "Isac",
+            "last": "Heremy"
+        },
+        "friends": [
+            "nona_archangel_97"
+        ],
+        "presentation": "I wanna see a good movie...",
+        "icon": "images/movie.svg"
+    },
+    {
+        "id": "FakeUser2000",
+        "name": {
+            "first": "Martin",
+            "last": "Excel"
+        }
+    },
+    {
+        "id": "LifeUpKiller99",
+        "name": {
+            "first": "Killer",
+            "last": "Mantis"
+        },
+        "friends": [
+            "nona_archangel_97"
+        ],
+        "presentation": "Let's play!!!!",
+        "icon": "images/controller.svg"
+    }
+]

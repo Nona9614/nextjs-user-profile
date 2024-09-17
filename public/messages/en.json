@@ -1,0 +1,21 @@
+{
+    "locales": {
+        "en": {
+            "country": "United States",
+            "language": "English"
+        },
+        "es": {
+            "country": "Mexico",
+            "language": "Spanish"
+        }
+    },
+    "user-default": {
+        "presentation": "Hello! I am using the Next.JS service."
+    },
+    "index": {
+        "title": "Users"
+    },
+    "user-panel": {
+        "friends": "Friends"
+    }
+}
